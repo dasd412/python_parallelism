@@ -25,7 +25,7 @@ def find_sums(numbers):
 
 
 def main():
-    numbers = [3_000_000 + x for x in range(20)]
+    numbers = [3_000_000 + x for x in range(30)]
     print(numbers)
 
     start_time = time.time()
@@ -40,8 +40,6 @@ def main():
     print()
 
     print(f"Duration : {time.time() - start_time} seconds")
-
-    # Duration : 2.0953168869018555 seconds
 
 
 if __name__ == '__main__':
